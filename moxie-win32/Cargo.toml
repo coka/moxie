@@ -1,0 +1,15 @@
+[package]
+name = "moxie-win32"
+version = "0.1.0"
+authors = ["Adam Perry <adam.n.perry@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+widestring = "0.4"
+
+[dependencies.winapi]
+version = "0.3"
+features = [
+    "std",
+    "winuser",
+]

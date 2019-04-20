@@ -20,5 +20,6 @@ typename = "0.1"
 [workspace]
 members = [
     "mox",
+    "moxie-win32",
     "moxie-wrench",
 ]
